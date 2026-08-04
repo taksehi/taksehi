@@ -1,16 +1,18 @@
-## Hi there 👋
+## Hey There 👋
 
-<!--
-**taksehi/taksehi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Im Sunny, an engineering Grad based in India
 
-Here are some ideas to get you started:
+I am not into traditional learning, I learn as I build and work on new exciting ideas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+name: Example
+uses: lowlighter/metrics@latest
+with:
+  template: repository
+  filename: metrics.repository.svg
+  token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+  user: lowlighter
+  repo: metrics
+  plugin_lines: yes
+  plugin_followup: yes
+  plugin_projects: yes
+  plugin_projects_repositories: lowlighter/metrics/projects/1
